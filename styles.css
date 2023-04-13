@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 720px;
+}
+
+p {
+    font-size: 14px;
+}
+
+img {
+    width: 100px;
+    
+}
+
+.hero {
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    width: 720px;
+    height: 350px;
+    color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    background: #ff9505;
+    padding: 5px;
+    
+}
+
+h2 {
+    background: #457B9D;
+    padding: 5px;
+    width: 400px;
+}
+
+.activities {
+    width: 680px;
+    margin: 0;
+    padding: 20px;
+    background: #f7e1d7;
+}
+
+.img-act {
+    border-radius: 10px;
+}
+
+.activities-img {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-park, .img-theatre, .img-sports {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    align-items: center;
+}
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.guide {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 400px;
+    background: #fcb9b2;
+    margin: 50px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 #1D3557;
+}
+
+.per {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.img-per {
+    width: 180px;
+}
